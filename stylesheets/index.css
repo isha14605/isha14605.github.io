@@ -44,8 +44,8 @@ body {
     background: black;
     overflow: hidden;
     background: #ab0202;  /* fallback color */
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url("../imgs/header.jpg");
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url("../imgs/header.jpg");
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("../imgs/header.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("../imgs/header.jpg");
 }
 
 img {
@@ -107,25 +107,23 @@ img {
 
 
 /* Projects */
-
 .display-4.subheading {
 	text-align: center;
 	padding-top: 1.5em;
 	color: black;
 }
 
-.card-deck {
-	padding: 2.5em 5em 2.5em 5em;
+.project-section {
+	text-align: center;
 }
 
-.card.no-outline {
+.project {
+	display: inline-block;
+	margin-left: 12.5%;
+}
+
+.project img {
 	width: 100%;
-	border: none; 
-}
-
-.card-img-top {
-	height: 210px;
-	padding-top: 1.0em;
 }
 
 h6 {
@@ -145,4 +143,12 @@ h6 {
 
 .footer h4 {
 	padding-top: 1.0em;
+}
+
+@media (max-width: 767px) {
+	.projects img {
+		max-width: 50%;
+    	display: block;
+    	margin: 0 auto;
+	}
 }
