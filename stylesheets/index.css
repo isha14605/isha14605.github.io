@@ -1,159 +1,127 @@
-html {
+html, body {
+	height: 100%;
+	width: 100%;
 	scroll-behavior: smooth;
 }
 
-body {
-	font-family: 'Libre Baskerville', serif;
-	width: 100%;
-	height: 100%;
-	margin: 0px;
-	padding: 0px;
-	overflow-x: hidden;
+.btn {
+	border-radius: 2;
 }
 
-/* Navbar */
-
-.navbar-custom {
-	background-color: transparent;
-}
-
-.navbar-brand, .navbar-text {
-	color: white;
-}
-
-.navbar.scrolled {
-	background: black;
-	transition: background 200ms;
-}
-
-.navbar-brand:hover {
-	color: #ab0202;
-}
-
-.nav-link:hover {
-	color: #ab0202;
-}
-
-.custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-
-.custom-toggler.navbar-toggler {
-  border-color: white;
-} 
-
-/* Header */
-
-#homePage {
-    height: 100vh;
-    background: black;
-    overflow: hidden;
-    background: #ab0202;  /* fallback color */
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("../imgs/header.jpg");
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("../imgs/header.jpg");
-}
-
-img {
-   object-fit: cover;
-}
-
-.display-2.heading {
-	text-align: center;
-	padding-top: 3.5em;
-	font-style: italic;
-	color: white;
-	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
-				 0px 8px 13px rgba(0, 0, 0, 0.1),
-				 0px 18px 23px rgba(0, 0, 0, 0.1);
-}
-
-/* About Me */
-
-#aboutMe {
-	background-color: white;
-}
-
-#aboutMe img {
-	padding: 15%;
-}
-
-.col-10 {
-	color: black;
-}
-
-.decoration {
-	color: #ab0202;
-	font-weight: 600;
-}
-
-/* Experience */
-
-.alt {
-	background-color: #ffcccc;
-}
-
-.headline {
-	padding-top: 1.5em;
-	padding-bottom: 1.5em;
-	padding-left: 2.5em;
-	padding-right: 2.5em;
-	text-align: center;
-}
-
-.special {
-	background-color: #ffcccc;
-	text-align: center;
+.navbar {
+	background-color: #23415C;
+	font-size: 1.2em;
 	border: none;
 }
 
-.special h3 {
-	line-height: 1.5em;
+.navbar-brand, .nav-link {
+	color: white;
 }
 
+.navbar-brand:hover, .nav-link:hover {
+	color: #CDCDCD;
+}
 
-/* Projects */
-.display-4.subheading {
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+  border-color: white;
+} 
+
+#home {
+	background: url(../imgs/header.jpg) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+.landing-text {
+	display: table-cell;
 	text-align: center;
-	padding-top: 1.5em;
-	color: black;
+	vertical-align: middle;
 }
 
-/*.project-section {
-	text-align: center;
+.landing-text h1 {
+	font-size: 500%;
+	font-weight: 700;
+	color: white;
 }
 
-.project {
-	display: inline-block;
-	margin-left: 12.5%;
-}*/
+.padding {
+	padding: 80px 0;
+}
 
-.project img {
-	object-fit: none;
+.padding img {
+	width: 100%;
+}
+
+.decoration {
+	color: #23415C;
+	font-weight: 600;
+}
+
+#experience {
+	background: 
+}
+#experience h2 {
+	padding-bottom: 5%;
 }
 
 h6 {
-	font-size: 0.75em;
+	font-style: italic;
 }
 
-
-/* Footer */
-.footer {
-	padding-top: 2em;
-	padding-bottom: 2em;
-	background-color: black;
-	text-align: center; 
-	color: white;
-
+#fixed {
+	background: url(../imgs/campground.jpeg) no-repeat center center fixed;
+	display: table;
+	height: 60%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
 }
 
-.footer h4 {
-	padding-top: 1.0em;
+footer {
+	width: 100%;
+	background-color: #23415C;
+	padding: 5% 5% 10% 5%;
+	color: #FFFFFF;
 }
 
-@media (max-width: 767px) {
-	.projects img {
-		max-width: 50%;
-    	display: block;
-    	margin: 0 auto;
+.col h3 {
+	padding-bottom: 2%;
+}
+
+.fa {
+	padding: 15px;
+	font-size: 25px;
+	color: #FFFFFF;
+}
+
+.fa:hover {
+	color: #D5D5D5;
+	text-decoration: none;
+}
+
+.icon {
+	max-width: 200px;
+}
+
+@media (max-width: 768px) {
+	.landing-text h1 {
+		font-size: 300%
+	}
+
+	.fa {
+		font-size: 20px;
+		padding: 10px;
+	}
+
+	.icon {
+		padding-top: 5%;
+		max-width: 100px;
 	}
 }
