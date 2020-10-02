@@ -20,7 +20,7 @@ html, body {
 }
 
 .navbar-brand:hover, .nav-link:hover {
-	color: #CDCDCD;
+	color: #bdbdbd;
 }
 
 .navbar-toggler-icon {
@@ -82,7 +82,7 @@ h6 {
 }
 
 .special {
-	color: #b78ad1;
+	color: #CD5B45;
 	font-weight: 600;
 }
 
@@ -111,6 +111,14 @@ footer {
 	padding-bottom: 2%;
 }
 
+.email {
+	color: white;
+}
+
+.email:hover {
+	color:  #bdbdbd;
+}
+
 .fa {
 	padding: 15px;
 	font-size: 25px;
@@ -118,7 +126,7 @@ footer {
 }
 
 .fa:hover {
-	color: #D5D5D5;
+	color: #bdbdbd;
 	text-decoration: none;
 }
 
