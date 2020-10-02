@@ -124,7 +124,15 @@ footer {
 
 @media (max-width: 768px) {
 	.landing-text h1 {
-		font-size: 300%
+		font-size: 300%;
+	}
+
+	h4 {
+		padding-top: 5%;
+	}
+
+	#about h2 {
+		padding-top: 5%;
 	}
 
 	.fa {
@@ -132,8 +140,4 @@ footer {
 		padding: 10px;
 	}
 
-	.icon {
-		padding-top: 5%;
-		max-width: 100px;
-	}
 }
