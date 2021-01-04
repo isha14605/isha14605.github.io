@@ -32,7 +32,7 @@ html, body {
 } 
 
 #home {
-	background: url(../imgs/header.jpg) no-repeat center center fixed;
+	background: url(../imgs/background.jpg) no-repeat center center fixed;
 	display: table;
 	height: 100%;
 	position: relative;
