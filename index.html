@@ -31,7 +31,7 @@
           <ul class="nav navbar-nav ml-auto">
             <li class="nav-item"><a class="nav-link py-1" href="#about">About Me</a></li>
             <li class="nav-item"><a class="nav-link py-1" href="#experience">Experience</a></li>
-            <li class="nav-item"><a class="nav-link py-1" href="#projects">Featured Projects</a></li>
+            <li class="nav-item"><a class="nav-link py-1" href="#projects">Projects</a></li>
             <li class="nav-item"><a class="nav-link py-1" href="#connect">Connect</a></li>
           </ul>
       </div>
@@ -94,22 +94,25 @@
 
   <div id="projects" class="padding">
     <div class="container">
-      <h2 class="text-center">Featured Projects</h2>
-      <div class="row project">
-        <div class="col-md-4">
+      <h2 class="text-center">Projects</h2>
+
+      <div class="card-columns">
+
+      <!-- <div class="row project"> -->
+        <!-- <div class="col-md-4"> -->
           <div class="card mb-3">
             <img class="card-img-top" src="imgs/LandingPage.png" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Vision Checker</h5>
               <ul>
                 <li>Developed a website that allows patients to monitor their eye health via a virtual eye exam, ensuring quality care during a pandemic.</li>
-                <li><span class="special">Winner of the Google COVID-19 Hackathon Fund at MedHacks 2020</span></li>
+                <li><span class="special">Winner of the Google COVID-19 Hackathon Fund at MedHacks 2020.</span></li>
               </ul>
               <p class="card-text"><small class="text-muted">HTML, CSS, Javascript</small><a href="https://github.com/Stepheny755/2020Vision" target="_blank" class="right fa fa-github fa-3x"></a><a href="https://devpost.com/software/vision-checker" target="_blank"><img src="https://img.icons8.com/ios/100/000000/devpost.png" class="devpost"/></a></p>
             </div>
           </div>
-        </div>
-        <div class="col-md-4">
+        <!-- </div> -->
+        <!-- <div class="col-md-4"> -->
           <div class="card mb-3">
             <img class="card-img-top" src="imgs/spikeAndAce2.png" alt="Card image cap">
             <div class="card-body">
@@ -120,65 +123,105 @@
               <p class="card-text"><small class="text-muted">Python (PyTorch, Numpy, Pandas)</small><a href="https://github.com/isha14605/covid-19-inhibitors" target="_blank" class="right fa fa-github fa-3x"></a></p>
             </div>
           </div>
-        </div>
-        <div class="col-md-4">
-          <!-- <img src="imgs/LandingPage.png"> -->
+       <!--  </div> -->
+        <!-- <div class="col-md-4"> -->
+          <div class="card mb-3">
+            <img class="card-img-top" src="imgs/conference.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Conferencing System</h5>
+              <ul>
+                <li>Designed an application using object-oriented programming practices to allow users to sign up for and attend various conferences.</li>
+                <li>Created a graphical user interface (GUI) that supports user functions, such as creating accounts and a messaging system for attendees of a conference.</li>
+              </ul>
+              <p class="card-text"><small class="text-muted">Java</small><a href="https://github.com/isha14605/csc207-project" target="_blank" class="right fa fa-github fa-3x"></a></p>
+            </div>
+          </div>
+        <!-- </div> -->
+      <!-- </div> -->
+
+      <!-- next three cards -->
+
+      <!-- <div class="row project">
+        <div class="col-md-4"> -->
           <div class="card mb-3">
             <img class="card-img-top" src="imgs/headphones-digital-art.jpg" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <h5 class="card-title">Euphoric Lyric</h5>
+              <ul>
+                <li>Created a machine learning model that takes in audio samples as input and outputs lyrics that correspond to timestamps in the audio sample.</li>
+              </ul>
+              <p class="card-text"><small class="text-muted">Python (TensorFlow, Keras, Numpy)</small><a href="https://github.com/SelenaLiu/LyricGenerator" target="_blank" class="right fa fa-github fa-3x"></a><a href="https://devpost.com/software/euphoric-lyric" target="_blank"><img src="https://img.icons8.com/ios/100/000000/devpost.png" class="devpost"/></a></p>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="row project">
-        <div class="col-sm-6 order-2 order-sm-1">
-          <h4>Protein Inhibitor Pipeline</h4>
-          <ul>
-            <li>iGEM Toronto</li>
-            <li><span class="decoration">Description:</span> A machine learning model that uses a transformer architecture in order to generate inhbitor protein sequences for an input protein</li>
-            <li><span class="decoration">Technical Area:</span> Machine Learning </li>
-            <li><span class="decoration">Languages and Frameworks:</span> Python, PyTorch, Numpy, Pandas, TensorFlow, GPT2</li>
-          </ul>
-          <a href="https://github.com/isha14605/covid-19-inhibitors" target="_blank" class="btn btn-outline-dark mb-4">GitHub</a>
-        </div>
-        <div class="col-sm-6 order-1 order-sm-2">
-          <img src="imgs/spikeAndAce2.png">
-        </div>
-      </div>
-      <div class="row project">
-        <div class="col-sm-6 order-2 order-sm-1">
-          <h4>Euphoric Lyric</h4>
-          <ul>
-            <li>Hack the 6ix 2020</li>
-            <li><span class="decoration">Description:</span> A machine learning model that takes in an audio sample as input and outputs lyrics that correspond to various timestamps in the sample</li>
-            <li><span class="decoration">Technical Area:</span> Machine Learning </li>
-            <li><span class="decoration">Languages and Frameworks:</span> Python, Numpy, TensorFlow, Keras, audio2numpy</li>
-          </ul>
-          <a href="https://github.com/SelenaLiu/LyricGenerator" target="_blank" class="btn btn-outline-dark mr-2 mb-4">GitHub</a>
-          <a href="https://devpost.com/software/euphoric-lyric" target="_blank" class="btn btn-outline-dark mr-2 mb-4">Devpost</a>
-        </div>
-        <div class="col-sm-6 order-1 order-sm-2">
-          <img src="imgs/headphones-digital-art.jpg">
-        </div>
-      </div>
-      <div class="row project">
-        <div class="col-sm-6 order-2 order-sm-1">
-          <h4>Yelp Camp</h4>
-          <ul>
-            <li><span class="decoration">Description:</span> A website that allows users to write reviews for campgrounds around the world, with current modifications underway and plans to change the premise of the application (stay tuned!)</li>
-            <li><span class="decoration">Technical Area:</span> Full Stack Web Development </li>
-            <li><span class="decoration">Languages and Frameworks:</span> HTML, CSS, Javascript, Bootstrap, Node.js, Express, Heroku, jQuery, MongoDB</li>
-            <li>Note: some functionality on the website may currently be unavailable for viewing as changes are made.</li>
-          </ul>
-          <a href="https://agile-springs-22221.herokuapp.com/" target="_blank" class="btn btn-outline-dark mr-2 mb-4">Check it out!</a>
-          <a href="https://github.com/isha14605/yelp-camp" target="_blank" class="btn btn-outline-dark mr-2 mb-4">GitHub</a>
-        </div>
-        <div class="col-sm-6 order-1 order-sm-2">
-          <img src="imgs/yelpCamp.png">
-        </div>
+        <!-- </div> -->
+        <!-- <div class="col-md-4"> -->
+          <div class="card mb-3">
+            <img class="card-img-top" src="imgs/yelpCamp.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Yelp Camp</h5>
+              <ul>
+                <li>Developed the front-end and back-end of a website that allows user to write reviews for campgrounds around the world.</li>
+              </ul>
+              <p class="card-text"><small class="text-muted">HTML, CSS, Javascript</small><a href="https://github.com/isha14605/yelp-camp" target="_blank" class="right fa fa-github fa-3x"></a></p>
+            </div>
+          </div>
+        <!-- </div> -->
+        <!-- <div class="col-md-4"> -->
+          <div class="card mb-3">
+            <img class="card-img-top" src="imgs/handwriting.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Handwriting Recognition</h5>
+              <ul>
+                <li>Version 1: Implemented a KNN algorithm in C, using the MNIST dataset.</li>
+                <li>Version 2: Built decision trees and binary files to develop a faster implementation of the first KNN version.</li>
+                <li>Version 3: Used processes and pipes for another implementation of the KNN algorithm.</li>
+              </ul>
+              <p class="card-text"><small class="text-muted">C (code viewable upon request)</small></p>
+            </div>
+          </div>
+        <!-- </div> -->
+      <!-- </div> -->
+
+      <!-- next three cards -->
+          <div class="card mb-3">
+            <img class="card-img-top" src="imgs/personalWebsite.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">My Website</h5>
+              <ul>
+                <li>Created my personal website, that one that you are currently on, to showcase my projects.</li>
+              </ul>
+              <p class="card-text"><small class="text-muted">HTML and CSS</small><a href="https://github.com/isha14605/isha14605.github.io" target="_blank" class="right fa fa-github fa-3x"></a></p>
+            </div>
+          </div>
+
+          <div class="card mb-3">
+            <img class="card-img-top" src="imgs/budgetLocal.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">BudgetLocal</h5>
+              <ul>
+                <li>Designed mock-ups for a web application that allows users to budget their monthly expenses, with a focus on incentives that support small businesses in local communities.</li>
+                <li>Implemented a chatbot with iMessage to integrate with the web application.</li>
+                <li>Presented a formal business plan for the web app.</li>
+                <li><span class="special">Finalist in Hack the Globe 2021.</span></li>
+              </ul>
+              <p class="card-text"><small class="text-muted">Figma</small><a href="https://www.figma.com/file/Psmjcirc77mMnGgwdbCaUQ/HacktheGlobe?node-id=0%3A1" target="_blank"><img src="imgs/figma-logo.png"/></a></p>
+            </div>
+          </div>
+
+          <div class="card mb-3">
+            <img class="card-img-top" src="imgs/collectiveAction.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">The Collective Action</h5>
+              <ul>
+                <li>Designed mock-ups for a website for a non-profit organization that brings together high school and university students to work on solving societal problems.</li>
+              </ul>
+              <p class="card-text"><small class="text-muted">Figma</small><a href="https://www.figma.com/file/2yT4NlobwRjbfzTcB3Cfb7/Collective_Action_Website_Draft?node-id=0%3A1" target="_blank"><img src="imgs/figma-logo.png"/></a></p>
+            </div>
+          </div>
+
+      <!-- <div class="row project">
+        
+      </div> -->
       </div>
     </div>
   </div>

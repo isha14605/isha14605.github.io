@@ -8,7 +8,7 @@ html, body {
 }
 
 .navbar {
-	background-color: #23415C;
+	background-color: #850b01;
 	font-size: 1.2em;
 	border: none;
 }
@@ -67,7 +67,7 @@ html, body {
 }
 
 .decoration {
-	color: #4d93d1;
+	color: #002085;
 	font-weight: 600;
 }
 
@@ -90,6 +90,10 @@ h6 {
 h2 {
 	padding-bottom: 5%;
 	font-size: 3em;
+}
+
+.card-columns{
+	display: inline-block;
 }
 
 .card-title {
@@ -131,7 +135,7 @@ h2 {
 
 footer {
 	width: 100%;
-	background-color: #23415C;
+	background-color: #850b01;
 	padding: 5% 5% 10% 5%;
 	color: #FFFFFF;
 }
