@@ -29,21 +29,21 @@
         </button>
         <div class="collapse navbar-collapse" id="navbar-collapse-main">
           <ul class="nav navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link py-1" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link py-1" href="#about">About Me</a></li>
             <li class="nav-item"><a class="nav-link py-1" href="#experience">Experience</a></li>
-            <li class="nav-item"><a class="nav-link py-1" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link py-1" href="#projects">Featured Projects</a></li>
             <li class="nav-item"><a class="nav-link py-1" href="#connect">Connect</a></li>
           </ul>
       </div>
     </div>
   </nav>
 
-  <div id="home">
+  <!-- <div id="home">
     <div class="landing-text">
       <h1>Isha Sharma</h1>
       <a href="files/Isha_Sharma_Resume_Updated_Copy.pdf" target="_blank" class="btn btn-outline-light">My Resume</a>
     </div>
-  </div>
+  </div> -->
 
   <div id="about" class="padding">
     <div class="container">
@@ -52,8 +52,14 @@
           <img src="imgs/MyHeadshot.jpg">
         </div>
         <div class="col-sm-6">
-          <h2>About</h2>
-          <p>I am in my second year at the <span class="decoration">University of Toronto</span>, majoring in <span class="decoration">Cell and Molecular Biology</span> and double minoring in <span class="decoration">Statistics</span> and <span class="decoration">Computer Science</span>. I am passionate about the intersection of biology and computer science and currently looking for <span class="decoration">summer 2021 internships</span> in <span class="decoration">software development</span>, <span class="decoration">web development</span>, or <span class="decoration">machine learning</span>.</p>
+          <h2>About Me</h2>
+          <p>I am a 3<sup>rd</sup> year student at the <span class="decoration">University of Toronto</span>, pursuing a: 
+            <ul>
+              <li>Cell and Molecular Biology Major</li>
+              <li>Computer Science Minor</li>
+              <li>Statistics Minor</li>
+            </ul>
+            I am passionate about the intersection of biology and computer science and currently looking for <span class="decoration">summer 2021 internships</span> in <span class="decoration">software development</span>, <span class="decoration">web development</span>, or <span class="decoration">machine learning</span>.</p>
           <p>In my free time, I enjoy reading, dancing, writing poetry, and traveling.</p>
         </div>
       </div>
@@ -88,23 +94,43 @@
 
   <div id="projects" class="padding">
     <div class="container">
-      <h2 class="text-center">Projects</h2>
+      <h2 class="text-center">Featured Projects</h2>
       <div class="row project">
-        <div class="col-sm-6 order-2 order-sm-1">
-          <h4>Vision Checker</h4>
-          <ul>
-            <li>MedHacks 2020</li>
-            <li><span class="decoration">Description:</span> A website that aims to ensure quality care during a global pandemic, by allowing patients to monitor their eye health via a virtual eye exam</li>
-            <li><span class="decoration">Technical Area:</span> Front-End Web Development</li>
-            <li><span class="decoration">Languages and Frameworks:</span> HTML, CSS, Javascript, Bootstrap, Heroku, Google's Speech-to-Text API, Google Cloud</li>
-            <li><span class="special">Winner of the Google COVID-19 Hackathon Fund</span></li>
-          </ul>
-          <a href="https://visionchecker.herokuapp.com/" target="_blank" class="btn btn-outline-dark mr-2 mb-4">Check it out!</a>
-          <a href="https://github.com/Stepheny755/2020Vision" target="_blank" class="btn btn-outline-dark mr-2 mb-4">GitHub</a>
-          <a href="https://devpost.com/software/vision-checker" target="_blank" class="btn btn-outline-dark mr-2 mb-4">Devpost</a>
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <img class="card-img-top" src="imgs/LandingPage.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Vision Checker</h5>
+              <ul>
+                <li>Developed a website that allows patients to monitor their eye health via a virtual eye exam, ensuring quality care during a pandemic.</li>
+                <li><span class="special">Winner of the Google COVID-19 Hackathon Fund at MedHacks 2020</span></li>
+              </ul>
+              <p class="card-text"><small class="text-muted">HTML, CSS, Javascript</small><a href="https://github.com/Stepheny755/2020Vision" target="_blank" class="right fa fa-github fa-3x"></a><a href="https://devpost.com/software/vision-checker" target="_blank"><img src="https://img.icons8.com/ios/100/000000/devpost.png" class="devpost"/></a></p>
+            </div>
+          </div>
         </div>
-        <div class="col-sm-6 order-1 order-sm-2">
-          <img src="imgs/LandingPage.png">
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <img class="card-img-top" src="imgs/spikeAndAce2.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Protein Inhibitor Pipeline</h5>
+              <ul>
+                <li>Implemented a machine learning model that uses a transformer architecture to generate protein inhibitors for SARS-CoV-2 and any other input protein.</li>
+              </ul>
+              <p class="card-text"><small class="text-muted">Python (PyTorch, Numpy, Pandas)</small><a href="https://github.com/isha14605/covid-19-inhibitors" target="_blank" class="right fa fa-github fa-3x"></a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <!-- <img src="imgs/LandingPage.png"> -->
+          <div class="card mb-3">
+            <img class="card-img-top" src="imgs/headphones-digital-art.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
         </div>
       </div>
       <div class="row project">
@@ -165,7 +191,7 @@
         <br>
         <a href="https://www.linkedin.com/in/ishasharma14/" target="_blank" class="fa fa-linkedin fa-3x"></a>
         <a href="https://github.com/isha14605" target="_blank" class="fa fa-github fa-3x"></a>
-        <p><i class="fa fa-copyright"></i>Isha Sharma 2020.</p>
+        <p><i class="fa fa-copyright"></i>Isha Sharma 2021.</p>
       </div>
     </div>
   </footer>
